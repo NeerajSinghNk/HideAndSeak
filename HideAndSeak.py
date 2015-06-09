@@ -555,7 +555,7 @@ class Subenemy5(Enemy):
                         down_count = 0
 
 ###############################################################################
-##############################---Bomb---Class---###############################
+##############################---images/Bomb----###############################
 ###############################################################################
 
 class Bomb(object):
@@ -1081,43 +1081,43 @@ class GUI(object):
         self.player = player
         self.enemy_list = enemy_list
         #load images from folder into usable vars
-        self.blueTile = pygame.image.load('blockBlue.png')
-        self.skyTile = pygame.image.load('blockSky.png')
-        self.house1 = pygame.image.load('House-1.png').convert_alpha()
-        self.house2 = pygame.image.load('House-2.png').convert_alpha()
-        self.house3 = pygame.image.load('House-3.png').convert_alpha()
-        self.house4 = pygame.image.load('House-4.png').convert_alpha()
-        self.fireImage = pygame.image.load('fire.png').convert_alpha()
-        self.bossTile = pygame.image.load('House-Boss.png').convert_alpha()
-        self.startTile = pygame.image.load('House-Start.png').convert_alpha()
-        self.playerImage = pygame.image.load('character.png').convert_alpha()
-        self.bomb1 = pygame.image.load('Bomb-1.png').convert_alpha()
-        self.bomb2 = pygame.image.load('Bomb-2.png').convert_alpha()
-        self.bomb3 = pygame.image.load('Bomb-3.png').convert_alpha()
-        self.bomb4 = pygame.image.load('Bomb-4.png').convert_alpha()
-        self.bombBoss = pygame.image.load('Bomb-Boss.png').convert_alpha()
-        self.enemyImage = pygame.image.load('enemy.png').convert_alpha()
-        self.instructions = pygame.image.load('instructions.png').convert_alpha()
+        self.blueTile = pygame.image.load('images/blockBlue.png')
+        self.skyTile = pygame.image.load('images/blockSky.png')
+        self.house1 = pygame.image.load('images/House-1.png').convert_alpha()
+        self.house2 = pygame.image.load('images/House-2.png').convert_alpha()
+        self.house3 = pygame.image.load('images/House-3.png').convert_alpha()
+        self.house4 = pygame.image.load('images/House-4.png').convert_alpha()
+        self.fireImage = pygame.image.load('images/fire.png').convert_alpha()
+        self.bossTile = pygame.image.load('images/House-Boss.png').convert_alpha()
+        self.startTile = pygame.image.load('images/House-Start.png').convert_alpha()
+        self.playerImage = pygame.image.load('images/character.png').convert_alpha()
+        self.bomb1 = pygame.image.load('images/Bomb-1.png').convert_alpha()
+        self.bomb2 = pygame.image.load('images/Bomb-2.png').convert_alpha()
+        self.bomb3 = pygame.image.load('images/Bomb-3.png').convert_alpha()
+        self.bomb4 = pygame.image.load('images/Bomb-4.png').convert_alpha()
+        self.bombBoss = pygame.image.load('images/Bomb-Boss.png').convert_alpha()
+        self.enemyImage = pygame.image.load('images/enemy.png').convert_alpha()
+        self.instructions = pygame.image.load('images/instructions.png').convert_alpha()
         self.houseArray = [self.house1, self.house2, self.house3, self.house4]
         self.bombArray = [self.bomb1, self.bomb2, self.bomb3, self.bomb4, self.bombBoss]
 
         #forEnemySequence
-        self.stickFigureBig = pygame.image.load('stickFigureBig.png').convert_alpha()
-        self.enemyBig = pygame.image.load('enemyBig.png').convert_alpha()
-        self.dodgeButton = pygame.image.load('Dodge.png').convert_alpha()
-        self.attackButton = pygame.image.load('Attack.png').convert_alpha()
-        self.attackSequenceBar = pygame.image.load('AttackSequenceBar.png').convert_alpha()
-        self.victoryStamp = pygame.image.load('VictoryStamp.png').convert_alpha()
+        self.stickFigureBig = pygame.image.load('images/stickFigureBig.png').convert_alpha()
+        self.enemyBig = pygame.image.load('images/enemyBig.png').convert_alpha()
+        self.dodgeButton = pygame.image.load('images/Dodge.png').convert_alpha()
+        self.attackButton = pygame.image.load('images/Attack.png').convert_alpha()
+        self.attackSequenceBar = pygame.image.load('images/AttackSequenceBar.png').convert_alpha()
+        self.victoryStamp = pygame.image.load('images/VictoryStamp.png').convert_alpha()
         self.sequenceText = []
 
         #deadSequence
-        self.paik = pygame.image.load('PaikFace.png').convert_alpha()
-        self.crown = pygame.image.load('crown.png').convert_alpha()
-        self.endNigh = pygame.image.load('endNigh.png').convert_alpha()
+        self.paik = pygame.image.load('images/PaikFace.png').convert_alpha()
+        self.crown = pygame.image.load('images/crown.png').convert_alpha()
+        self.endNigh = pygame.image.load('images/endNigh.png').convert_alpha()
 
         #winSequence
-        self.foot = pygame.image.load('Foot.png').convert_alpha()
-        self.endingScreen = pygame.image.load('EndNighHappy.png').convert_alpha()
+        self.foot = pygame.image.load('images/Foot.png').convert_alpha()
+        self.endingScreen = pygame.image.load('images/EndNighHappy.png').convert_alpha()
 
     def renderSuite(self):
         self.renderBackground()
@@ -1432,9 +1432,9 @@ class GUI(object):
                     exit(3)
 
 ####Image Credit####
-#Professor Paik: http://www.news.cs.nyu.edu/sites/default/files/images/group.preview.jpg
+#Professor Paik: http://www.news.cs.nyu.edu/sites/default/filesimages/group.preview.jpg
 #Burger King Hat: http://s3.amazonaws.com/everystockphoto/fspid30/59/63/15/3/lightbox-burgerking-crown-5963153-o.jpg
-#Dragon Ball Cloud: http://th08.deviantart.net/fs70/PRE/f/2010/024/6/6/Nube_Voladora_by_camarinox.png
+#Dragon Ball Cloud: http://th08.deviantart.net/fs70/PRE/f/2010/024/6/6/images/Nube_Voladora_by_camarinox.png
 #Foot: http://etc.usf.edu/clipart/63300/63322/63322_foot_lg.gif
 
 game()
