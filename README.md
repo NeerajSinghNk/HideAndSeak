@@ -7,3 +7,5 @@ To run the game execute
 python HideAndSeak.py
 '''
 
+HERE WE ARE
+
